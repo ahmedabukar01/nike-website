@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:red;
+    --secondary-color:white;
+    --thirty-color:black;
+}
+.blue-theme{
+    --primary-color:blue;
+    --secondary-color:white;
+    --thirty-color:blue;
+}
+.green-theme{
+    --primary-color:green;
+    --secondary-color:white;
+    --thirty-color:black;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    padding:0 90px;
+}
+.navbar{
+    height:70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display:inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color:var(--thirty-color);
+    margin:0 10px;
+    font-size: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color:#000;
+}
+.navbar i{
+    font-size: 25px;
+    color:var(--primary-color);
+}
+.navbar li a.basket{
+    margin-left:70px;
+}
+.showcase{
+    background:var(--primary-color);
+    height: 88vh;
+    position: relative;
+}
+.showcase .showcase-content{
+    display:flex;
+}
+img{
+    width:100%;
+}
+.left{
+    padding-top:50px;
+    width:50%;
+    color:var(--secondary-color);
+}
+.left h3{
+    font-size:24px;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed;
+}
+.left h1{
+    font-size: 45px;
+    padding:20px 0;
+}
+.left div{
+    font-size:20px;
+    font-weight: lighter;
+}
+.left a{
+    text-decoration: none;
+    padding:10px 20px;
+    margin-top:15px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size:20px;
+    color:var(--secondary-color);
+    border:1px solid white;
+
+}
+.right{
+    width:90%;
+}
+.colors{
+    background:#fff;
+    padding:10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 2;
+    left:50%;
+    transform:translate(-50%);
+    display: flex;
+    cursor:pointer
+}
+.red{
+    background:red;
+    width:15px;
+    height: 15px;
+    border-radius: 15px;
+}
+.blue{
+    background:blue;
+    width:15px;
+    height: 15px;
+    border-radius: 15px;
+}
+.green{
+    background:green;
+    width:15px;
+    height: 15px;
+    border-radius: 15px;
+}
+.cl{
+    margin:0 5px;
+}
